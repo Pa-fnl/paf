@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mon site</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="d-lg-none">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+          <!-- fixed top pour que le contenu s'affiche bien à coté" -->
+          <div class="container-fluid">
+            <a class="navbar-brand mb-lg-4" href="#">
+              <span class="h3 fw-bold d-block d-lg-none">Paul Fenelon</span>
+              <!-- le d-block permet de faire passer le span en block pour prendre tout la largeur -->
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#accueil">ACCUEIL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#propositions">PROPOSITIONS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">EN SAVOIR PLUS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portefolio">PORTEFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <aside class="col-lg-3 d-lg-block d-none fixed-top fw-bold fs-4">
+        <div
+          class="container d-flex flex-column align-items-center justify-content-center"
+          style="height: 100vh"
+        >
+          <img
+            class="rounded-circle"
+            style="max-width: 200px"
+            src="images/elephantdroit.webp"
+            alt=""
+          />
+          <ul class="p-5 list-unstyled">
+            <li class="mb-3">
+              <a style="text-decoration: none" href="#accueil">ACCUEIL</a>
+            </li>
+            <li class="mb-3">
+              <a style="text-decoration: none" href="#prpopositions"
+                >PROPOSITIONS</a
+              >
+            </li>
+            <li class="mb-3">
+              <a style="text-decoration: none" href="#about">EN SAVOIR PLUS</a>
+            </li>
+            <li class="mb-3">
+              <a style="text-decoration: none" href="#portefolio">PORTEFOLIO</a>
+            </li>
+            <li class="mb-3">
+              <a style="text-decoration: none" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="row">
+        <div class="col-lg-3"></div>
+
+        <main class="col-lg-9">
+          <div class="container d-flex justify-content-center">
+            <section id="accueil">
+              <div
+                style="height: 100vh"
+                class="container d-flex justify-content-center text-white"
+              >
+                <div class="row align-items-center">
+                  <!-- pourquoi align-items ne marche que sur la row est pas le conteneur ? -->
+                  <div class="col mx-5">
+                    <h1 class="fw-bold display-4">
+                      Paul Fenelon, un jeune
+                      <span class="text-warning">developpeur Full Stack</span>
+                      en devenir
+                    </h1>
+                    <p>
+                      Passionné par la création d'interfaces intuitives et
+                      esthétiques, je vise à améliorer l'expérience utilisateur
+                    </p>
+                    <a href="#" class="btn btn-outline-warning"
+                      >N'hésitez pas à me contacter !</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <hr />
+          <!-- 1ere section service -->
+          <section id="propositions">
+            <div class="card">
+              <div class="card__container">
+                <article class="card__article">
+                  <div class="card__data">
+                    <img
+                      src="images/webbbcard-removebg-preview.png"
+                      alt="card image"
+                      class="card__img"
+                    />
+                    <h1 class="card__title fw-bold">Conception de site web</h1>
+                    <p class="card__description">
+                      Design, maintenance, référencement, optimisation
+                    </p>
+                  </div>
+                  <div class="card__shapes">
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                  </div>
+                </article>
+
+                <article class="card__article">
+                  <div class="card__data">
+                    <img
+                      src="images/card-design 1.png"
+                      alt="card image"
+                      class="card__img"
+                    />
+                    <h1 class="card__title fw-bold">Graphisme et design</h1>
+                    <p class="card__description">Logo, Maquette, cards</p>
+                  </div>
+                  <div class="card__shapes">
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                    <span class="card__shape"></span>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+          <hr />
+          <!-- 2ème section pour about -->
+
+          <section id="about">
+            <div class="container text-white">
+              <h4>Skills</h4>
+              <p>Projets perso et pro</p>
+              <div class="row">
+                <div
+                  class="col-12 col-md bg-secondary m-2 skill__card"
+                  style="height: 100px"
+                ></div>
+                <div
+                  class="col-12 col-md bg-secondary m-2 skill__card"
+                  style="height: 100px"
+                ></div>
+                <div
+                  class="col-12 col-md bg-secondary m-2 skill__card"
+                  style="height: 100px"
+                ></div>
+                <div
+                  class="col-12 col-md bg-secondary m-2 skill__card"
+                  style="height: 100px"
+                ></div>
+              </div>
+            </div>
+          </section>
+          <hr />
+
+          <!-- 3ème section pour projet   -->
+          <section id="portefolio">
+            <div class="container">
+              <h4 class="text-white">Mon book</h4>
+              <div class="row">
+                <div class="col-12 col-md card m-2" style="width: 18rem">
+                  <img
+                    src="images/book.jpg"
+                    class="card-img-top img-fluid img__projet"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Création complète de mon site personnel, du wireframe à la
+                      mise en ligne du site.
+                      <button class="btn btn-outline-primary">Voir plus</button>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 col-md card m-2" style="width: 18rem">
+                  <img
+                    src="images/projetcard.png"
+                    class="card-img-top img__projet"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      En cours avec l'AFPA
+                      <button class="btn btn-outline-primary">Voir plus</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr />
+          <!-- contact -->
+          <section>
+            Intéréssé pour travailler ensemble ? Parlons en ensemble
+          </section>
+        </main>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
