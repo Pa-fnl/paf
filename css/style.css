@@ -11,10 +11,10 @@ img {
   --sidebar-width: 300px; /* Épaisseur initiale de la barre */
   --shape-gradient: linear-gradient(
     90deg,
-    hsl(146, 63%, 47%),
-    hsl(57, 81%, 60%)
+    hsl(0, 0%, 100%),
+    hsl(167, 78%, 11%)
   );
-  --body-gradient: linear-gradient(180deg, #022a30, hsla(174, 79%, 72%, 0.59));
+  --body-gradient: linear-gradient(180deg, #022a30, hsla(174, 14%, 30%, 0.59));
   --container-color: hsl(235, 32%, 10%);
 }
 

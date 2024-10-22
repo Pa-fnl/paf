@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+.navbar {
+  display: flex;
+
+  &__link {
+    color: #242424;
+    text-decoration: none;
+  }
+}
